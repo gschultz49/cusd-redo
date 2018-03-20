@@ -9,10 +9,8 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-<title>CUSD Stories</title>
+<title>REDO</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/materialize-src/sass/materialize.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-
-

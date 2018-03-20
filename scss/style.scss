@@ -1,0 +1,17 @@
+
+
+// backup for older browsers
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$navbar-color : #FFFFFF;
+$lightgreen: #5ca772;
+$lightgrey: #c9c9c9;
+
+// setup gotham-book font from truetype file
+@font-face {
+    font-family: Gotham-Book;
+    src: url("../fonts/gotham-book.ttf") format("truetype");
+}
+
+// body{
+// };

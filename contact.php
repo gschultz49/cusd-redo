@@ -43,7 +43,8 @@
                           $error="Please fill in all fields: ";
                       }
 
-                      $receiver = "psk84@cornell.edu"; //always sent to Zeyu's email
+                      $receiver = "psk84@cornell.edu"; 
+                    //   $receiver = "zh75@cornell.edu";
                       $sender = filter_input(INPUT_POST,'email', FILTER_SANITIZE_EMAIL);
                       $name = filter_input(INPUT_POST,'name', FILTER_SANITIZE_STRING);
                       $message = filter_input(INPUT_POST,'message', FILTER_SANITIZE_STRING);

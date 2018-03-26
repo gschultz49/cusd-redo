@@ -14,7 +14,7 @@ function random_fact(){
   console.log("generating random fact");
   const facts = [
     "Recycling one aluminum can saves enough energy to run a TV for three hours -- or the equivalent of a half a gallon of gasoline.",
-    "350, 000 aluminum cans are produced every minute!",
+    "350,000 aluminum cans are produced every minute!",
 
     "More aluminum goes into beverage cans than any other product.",
 
@@ -22,7 +22,7 @@ function random_fact(){
 
     "Because so many of them are recycled, aluminum cans account for less than 1% of the total U.S.waste stream, according to EPA estimates.",
 
-    "During the time it takes you to read this sentence, 50, 000 12- ounce aluminum cans are made.",
+    "During the time it takes you to read this sentence, 50,000 12-ounce aluminum cans are made.",
 
     "An aluminum can that is thrown away will still be a can 500 years from now!",
     "There is no limit to the amount of times aluminum cans be recycled.",
@@ -35,9 +35,9 @@ function random_fact(){
 
     "A 60- watt light bulb can be run for over a day on the amount of energy saved by recycling 1 pound of steel.In one year in the United States, the recycling of steel saves enough energy to heat and light 18, 000, 000 homes!",
 
-    "Every ton of recycled steel saves 2, 500 pounds of iron ore, 1, 000 of coal, and 40 pounds of limestone."
+    "Every ton of recycled steel saves 2,500 pounds of iron ore, 1,000 of coal, and 40 pounds of limestone."
   ];
-  
+
   let randomly_picked = facts[Math.floor((Math.random() * facts.length))];
   return randomly_picked
 }

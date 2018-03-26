@@ -24,7 +24,7 @@
             <li class="col s2 offset-s1"><a href="index.php">Home</a></li>
             <li class="col s2"><a href="about.php">About</a></li>
             <li class="col s2"><a href="education.php">Education</a></li>
-            <li class="col s2"><a href="reosurces.php">Resources</a></li>
+            <li class="col s2"><a href="resources.php">Resources</a></li>
             <li class="col s2"><a href="contact.php">Contact</a></li>
           </div>
           

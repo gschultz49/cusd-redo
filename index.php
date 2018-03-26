@@ -15,9 +15,12 @@
     <![endif]-->
     <?php include "includes/navbar.php"; ?>
 
-     <div class="row center-align main">
-       <!-- main content here -->
-     </div>
+     <div class="section white">
+      <div class="row container">
+        <h2 class="header">Content of the page</h2>
+        <p class="grey-text text-darken-3 lighten-3">Telling people about our Lord and Savior Composting.</p>
+      </div>
+    </div>
 
 
     <?php include "includes/footer.php"; ?>

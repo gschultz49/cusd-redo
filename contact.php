@@ -7,12 +7,6 @@
 
   <head>
     <?php include "includes/header-core.php"; ?>
-    <?php
-        //creates versions for each time the style sheet is updated
-        $style_path = 'styles/styling.css';
-        $version = filemtime($style_path);
-        echo "<link rel='stylesheet' href='$style_path?ver=$version'>";
-    ?>         
     <!-- captcha --> 
     <!--<script src='https://www.google.com/recaptcha/api.js'></script>--> 
   </head>
@@ -26,11 +20,12 @@
      <div class="row center-align main">
        <!-- contact page here -->
 
-        <!-- captcha info:
-        site key= 6LdvMyAUAAAAAKuAIWJ1EuqXpHDxPVet-iNlAgJz
-        secret key= 6LdvMyAUAAAAAN5FG8WokcV1bSvHY7smLGGUNOEy
-        documentation at https://www.google.com/recaptcha/admin#site/337654639?setup
-         -->
+        <?php
+        //  captcha info:
+        // site key= 6LdvMyAUAAAAAKuAIWJ1EuqXpHDxPVet-iNlAgJz
+        // secret key= 6LdvMyAUAAAAAN5FG8WokcV1bSvHY7smLGGUNOEy
+        // documentation at https://www.google.com/recaptcha/admin#site/337654639?setup
+         ?>
 
          <div>
             <h2>Contact Us</h2>

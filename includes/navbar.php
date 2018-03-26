@@ -22,7 +22,8 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="education.php">Education</a></li>
-        <li><a href="education.php">Resources</a></li>
+        <li><a href="reosurces.php">Resources</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -32,6 +33,7 @@
     <li><a href="about.php">About</a></li>
     <li><a href="education.php">Education</a></li>
     <li><a href="resources.php">Resources</a></li>
+    <li><a href="contact.php">Contact</a></li>
   </ul>
 
 <!-- <div class ="header-container darken-overlay">

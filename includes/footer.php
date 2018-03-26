@@ -14,13 +14,13 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">Random commentary</p>
+                <p class="grey-text text-lighten-4">REDO is a sub-team of Cornell Universities Cornell University Sustainable Design (CUSD) team. The Smithsonian Museum in no shape or form endorses the content of this website</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                  <li><a class = "grey-text text-lighten-3" target="_blank" href ="https://www.facebook.com/CUSustainableDesign/">Facebook</a></li>
-                  <li><a class = "grey-text text-lighten-3" target="_blank" href ="https://www.cusd.cornell.edu">Website</a></li>
+                  <li><a class = "grey-text text-lighten-3" target="_blank" href ="https://www.facebook.com/CUSustainableDesign/"> CUSD Facebook</a></li>
+                  <li><a class = "grey-text text-lighten-3" target="_blank" href ="https://www.cusd.cornell.edu">CUSD Website</a></li>
                 </ul>
               </div>
             </div>

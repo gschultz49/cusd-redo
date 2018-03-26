@@ -32,6 +32,10 @@ $redo-orange: #ef8c31;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+// override
+.parallax-container{
+    height:350px;
+}
 
 .top-left {
     position: absolute;

@@ -27,7 +27,7 @@
         // documentation at https://www.google.com/recaptcha/admin#site/337654639?setup
          ?>
 
-         <div>
+         <div class="section white">
             <h2>Contact Us</h2>
 
             <?php
@@ -77,8 +77,9 @@
 
                // end 'if form was submitted'
           ?>
-
-                <form class="cospo" action='contact.php' method='post' enctype='multipart/form-data'>
+            
+                <div class="row container">
+                      <form class="cospo" action='contact.php' method='post' enctype='multipart/form-data'>
                     <input type="text" name="name" placeholder="Name">
                     <input type="email" name="email" placeholder="Email">
                     <textarea name="message" placeholder="Message" rows="5"></textarea>
@@ -86,6 +87,12 @@
                     <!--<div class="g-recaptcha" data-sitekey="6LeGfyUUAAAAAKlgeEycfo03lcAPkbELBL-zKahM"></div>--> 
                     <input class='button' type='submit' name='submit_msg'>
                 </form>
+                </div>
+            </div>
+
+
+
+             
             </div>
 
           </div>

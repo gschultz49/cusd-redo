@@ -17,10 +17,9 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <?php
-        // <link rel="stylesheet" type="text/css" href="css/style.css">
-
-        //creates versions for each time the style sheet is updated
-        $style_path = 'css/style.css';
-        $version = filemtime($style_path);
-        echo "<link rel='stylesheet' type='text/css' href='$style_path?ver=$version'>";
+      // <link rel="stylesheet" type="text/css" href="css/style.css">
+      //creates versions for each time the style sheet is updated
+      $style_path = 'css/style.css';
+      $version = filemtime($style_path);
+      echo "<link rel='stylesheet' type='text/css' href='$style_path?ver=$version'>";
   ?>         

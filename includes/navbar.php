@@ -14,19 +14,24 @@
     <li><a href="#!">three</a></li>
   </ul>
 
-  <nav>
-    <div class="nav-wrapper redo-red">
-      <a href="#!" class="brand-logo">REDO</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="education.php">Education</a></li>
-        <li><a href="reosurces.php">Resources</a></li>
-        <li><a href="contact.php">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+  <!-- <div class="navbar-fixed"> -->
+    <nav>
+      <div class="nav-wrapper redo-red">
+        <!-- <a href="#!" class="brand-logo">REDO</a> -->
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down">
+          <div class="row container center-align">
+            <li class="col s2 offset-s1"><a href="index.php">Home</a></li>
+            <li class="col s2"><a href="about.php">About</a></li>
+            <li class="col s2"><a href="education.php">Education</a></li>
+            <li class="col s2"><a href="reosurces.php">Resources</a></li>
+            <li class="col s2"><a href="contact.php">Contact</a></li>
+          </div>
+          
+        </ul>
+      </div>
+    </nav>
+  <!-- </div> -->
 
   <ul class="sidenav" id="mobile-demo">
     <li><a href="index.php">Home</a></li>

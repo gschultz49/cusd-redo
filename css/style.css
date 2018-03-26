@@ -30,4 +30,11 @@
 .foot-parallax {
   height: 200px; }
 
+.zeyu img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid #c54b59;
+  margin: 25px 0; }
+
 /*# sourceMappingURL=style.css.map */

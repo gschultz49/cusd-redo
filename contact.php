@@ -77,6 +77,10 @@
 
                // end 'if form was submitted'
           ?>
+                <div class="row container zeyu">
+                    <img src="img/zeyu.jpeg">
+                    <h5 class="center-align">Hi, I'm Zeyu Hu, the team lead of REDO. Curious about our work? Email me below!</h5>
+                </div>
             
                 <div class="row container">
                     <form class="cospo" action='contact.php' method='post' enctype='multipart/form-data'>
@@ -104,13 +108,10 @@
                                 <input class='btn' type='submit' name='submit_msg'>
                                 <!-- captcha -->
                                 <!--<div class="g-recaptcha" data-sitekey="6LeGfyUUAAAAAKlgeEycfo03lcAPkbELBL-zKahM"></div>--> 
-                            </div>
-
-                            
-
-             
-                        
+                            </div>           
                         </div>
+
+
                     </form>
                 </div>
             </div>

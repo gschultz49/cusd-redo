@@ -21,10 +21,8 @@
          <div class="section white">
             <h2>Education</h2>
           </div>
-          <a class="waves-effect waves-light btn-large" id="facts_generator" >random fact</a>
+          <a class="waves-effect waves-light btn-large" id="facts_generator">random fact</a>
       </div>
-          
-
 
     <?php include "includes/footer.php"; ?>
 

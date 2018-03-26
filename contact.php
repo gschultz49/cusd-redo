@@ -63,8 +63,8 @@
                           $subject = "REDO Contact Form Submission";
                           $body = "Message from ".$name.":  ".$message;
                           $headers = "Reply to ".$name." at ".$sender;
-                          mail($receiver,$subject,$body,$headers);
-                          print("Your form has been submitted.");
+                        //   mail($receiver,$subject,$body,$headers);
+                          print("Your form has been submitted, we'll get back to you soon!.");
                       }
                       else{
                           print("<p class='error'>$error</p>");
@@ -79,14 +79,39 @@
           ?>
             
                 <div class="row container">
-                      <form class="cospo" action='contact.php' method='post' enctype='multipart/form-data'>
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email">
-                    <textarea name="message" placeholder="Message" rows="5"></textarea>
-                    <!-- captcha -->
-                    <!--<div class="g-recaptcha" data-sitekey="6LeGfyUUAAAAAKlgeEycfo03lcAPkbELBL-zKahM"></div>--> 
-                    <input class='button' type='submit' name='submit_msg'>
-                </form>
+                    <form class="cospo" action='contact.php' method='post' enctype='multipart/form-data'>
+                        <div class="input-field col s12 l6">
+
+                            <div class="input-field col s12">
+                                <input id ="text_name" type="text" name="name" >
+                                <label for="text_name">Name</label>
+                            </div>
+
+                            <div class="input-field col s12">
+                                <input id ="text_email" type="email" name="email" >
+                                <label for="text_email">Email</label>    
+                            </div>
+                        </div>
+                        <div class="input-field col s12 l6">
+
+                            <div class="input-field col s12">
+                                <textarea id="text_message" class= "materialize-textarea" name="message" data-length="120"></textarea>
+
+                                <label for="text_message">Message</label>
+                            </div>
+
+                            <div class="input-field col s12">
+                                <input class='btn' type='submit' name='submit_msg'>
+                                <!-- captcha -->
+                                <!--<div class="g-recaptcha" data-sitekey="6LeGfyUUAAAAAKlgeEycfo03lcAPkbELBL-zKahM"></div>--> 
+                            </div>
+
+                            
+
+             
+                        
+                        </div>
+                    </form>
                 </div>
             </div>
 

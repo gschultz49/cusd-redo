@@ -64,7 +64,8 @@
                           $subject = "REDO Contact Form Submission";
                           $body = "Message from ".$name.":  ".$message;
                           $headers = "Reply to ".$name." at ".$sender;
-                        //   mail($receiver,$subject,$body,$headers);
+                          mail($receiver,$subject,$body,$headers);
+
                           print("Your form has been submitted, we'll get back to you soon!.");
                       }
                       else{

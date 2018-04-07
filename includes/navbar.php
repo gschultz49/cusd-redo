@@ -15,7 +15,7 @@
       <li> <a id="compost" href="compost.php">Compost</a></li>
       <li> <a id="education" href="education.php">Education</a></li>
       <li> <a id="infographic" href="infographic.php">Infographic</a></li>
-      <li> <a id="contact" href="contact2.php">Contact</a></li>
+      <li> <a id="contact2" href="contact2.php">Contact</a></li>
     </ul>
   </div>
 </div>
@@ -26,5 +26,5 @@
   <li> <a id="compost" href="compost.php">Compost</a></li>
   <li> <a id="education" href="education.php">Education</a></li>
   <li> <a id="infographic" href="infographic.php">Infographic</a></li>
-  <li> <a id="contact" href="contact2.php">Contact</a></li>
+  <li> <a id="contact2" href="contact2.php">Contact</a></li>
 </ul>

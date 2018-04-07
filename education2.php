@@ -7,6 +7,8 @@
 
   <head>
     <?php include "includes/header-core.php"; ?>
+    <!-- captcha --> 
+    <!--<script src='https://www.google.com/recaptcha/api.js'></script>--> 
   </head>
 
   <body id="index">
@@ -15,12 +17,12 @@
     <![endif]-->
     <?php include "includes/navbar.php"; ?>
 
-     <div class="section white">
-      <div class="row container">
-        <h2 class="header">Who are we?</h2>
-        <p class="grey-text text-darken-3 lighten-3">Composting is the natural process of recycling organic materials into nutrient rich soil amendment. Our team wishes to harvest the ample organic matter (AKA animal excrement) produced by the Smithsonian Zoo and use it to its full potential. Through this partnership, REDO is developing innovative solutions for zoos across the nation to handle their animal manure and food waste. We view waste not as a problem, but as a valued asset with environmental, economic, social, and educational worth.</p>
+     <div class="row center-align main">
+         <div class="section white">
+            <h2>Education</h2>
+          </div>
+          <a class="waves-effect waves-light btn-large" id="facts_generator">random fact</a>
       </div>
-    </div>
 
     <?php include "includes/footer.php"; ?>
 

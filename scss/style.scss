@@ -154,9 +154,6 @@ body{
     font-weight: bolder;
   }
 }
-
-
-
 // infographic page
 #infographic{
   img{
@@ -170,5 +167,19 @@ body{
   }
   h3{
     color: $redo-red;
+  }
+}
+
+#education{
+  .container{
+    text-align: center;
+    margin-top: 5rem;
+  }
+  img{
+    width: 15rem;
+    height: 15rem;
+  }
+  h1{
+    color: $redo-pink
   }
 }

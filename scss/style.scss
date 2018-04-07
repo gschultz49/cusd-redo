@@ -98,8 +98,12 @@ body{
   margin-top: 5rem;
 }
 
-// all index page styling
+
+// index page styling
 #index{
+  h1{
+    color: $redo-pink;
+  }
   .shadow {
     img {
       @extend %center-image;
@@ -112,11 +116,9 @@ body{
       }
     }
   }
-  h1{
-    color: $redo-pink;
-  }
 }
 
+// mikey page, still dont know what this is?
 #mikey{
   .shadow{
     img{
@@ -151,11 +153,17 @@ body{
       }
     }
   }
-
 }
 
 // compost page
 #compost{
+  h1{
+    color: $redo-pink;
+  }
+  span{
+    font-weight: bolder;
+  }
+
   .shadow{
     img{
       @extend %center-image;
@@ -181,13 +189,8 @@ body{
       }
     }
   }
-  h1{
-    color: $redo-pink;
-  }
-  span{
-    font-weight: bolder;
-  }
 }
+
 // infographic page
 #infographic{
   img{
@@ -206,16 +209,16 @@ body{
 
 // education or worksheets page
 #education{
-  .container{
-    text-align: center;
-    margin-top: 3rem;
-  }
   img{
     width: 15rem;
     height: 15rem;
   }
   h1{
     color: $redo-pink
+  }
+  .container{
+    text-align: center;
+    margin-top: 3rem;
   }
   .fertilizer{
     margin: 2rem 0;
@@ -224,6 +227,9 @@ body{
 
 // contact page
 #contact{
+  p{
+    margin:2px 0;
+  }
   .lead{
     .lead-img{
       height: 20rem;
@@ -245,9 +251,6 @@ body{
   }
   .grid{
     margin-top: 5rem;
-  }
-  p{
-    margin:2px 0;
   }
   .contact{
     margin-top: 1rem;

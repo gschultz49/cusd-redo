@@ -1,12 +1,28 @@
 $(document).ready(function () {
   $('.parallax').parallax();
   $('.sidenav').sidenav();
-  $(".dropdown-button").dropdown();  
+  $(".dropdown-button").dropdown();
   $('.tap-target').tapTarget();
 });
 
 
-$("#facts_generator").on('click', function(){ 
+// active page highlighter
+$(function(){
+    var pathname = (window.location.pathname.match(/[^\/]+$/)[0]);
+    pathname = pathname.slice(0, -4);
+
+    $('#navbar .links a').each(function() {
+    if ($(this).attr('id') == pathname)
+    {
+        $(this).addClass('active');
+    }
+    });
+});
+
+
+
+
+$("#facts_generator").on('click', function(){
   alert(random_fact());
 });
 

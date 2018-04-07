@@ -17,6 +17,7 @@
      <div class="container">
         <h1 class="center-align"> da fuk goes on this page </h1>
      </div>
+     <?php include "includes/footer.php"; ?>
     <?php include "includes/js-scripts.php"; ?>
   </body>
 </html>

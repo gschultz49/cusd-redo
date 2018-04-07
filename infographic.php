@@ -39,6 +39,7 @@
          </div>
        </div>
      </div>
+     <?php include "includes/footer.php"; ?>
     <?php include "includes/js-scripts.php"; ?>
   </body>
 </html>

@@ -1,5 +1,4 @@
 <?php
-
 // for changing team leads...
 $teamLead= "Zeyu Hu";
 $teamLeadEmail = "zh75@cornell.edu";
@@ -31,7 +30,7 @@ $teamLeadImg = "img/zeyu.jpeg";
            <h1> <?php echo $teamLead; ?> </h1>
            <p>Composting is the natural process of recycling organic materials into nutrient rich soil amendment. Our team wishes to harvest the ample organic matter (AKA animal excrement) produced by the Smithsonian Zoo and use it to its full potential. Through this partnership, REDO is developing innovative solutions for zoos across the nation to handle their animal manure and food waste. We view waste not as a problem, but as a valued asset with environmental, economic, social, and educational worth. </p>
 
-            <p>Any questions? Feel free to reach out to me at<a href="mailto:<?php echo $teamLeadEmail; ?>"> <?php echo $teamLeadEmail; ?></a></p>
+           <p class="contact">Any questions? Feel free to reach out to me at<a href="mailto:<?php echo $teamLeadEmail; ?>"> <?php echo $teamLeadEmail; ?></a></p>
          </div>
        </div>
        <div class="row grid">
@@ -67,6 +66,7 @@ $teamLeadImg = "img/zeyu.jpeg";
          </div>
        </div>
      </div>
+     <?php include "includes/footer.php"; ?>
     <?php include "includes/js-scripts.php"; ?>
   </body>
 </html>

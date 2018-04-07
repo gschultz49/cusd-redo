@@ -41,6 +41,7 @@
       </div>
       <div class="shadow"><img class="compost-info2" src="img/compost-info2.png" alt="compost-info2"></div>
     </div>
+    <?php include "includes/footer.php"; ?>
     <?php include "includes/js-scripts.php"; ?>
   </body>
 </html>

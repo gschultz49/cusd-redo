@@ -8,7 +8,7 @@
 // $lightgrey: #c9c9c9;
 
 // $redo-teal: #5cc3bc;
-// $redo-green: #c7d967;
+$redo-green: #c7d967;
 // $redo-orange: #ef8c31;
 
 $break-small: 600px;
@@ -71,7 +71,6 @@ body{
   .redo-logo:hover{
     opacity: .8;
   }
-
   .links{
     li{
       display: inline;
@@ -94,6 +93,13 @@ body{
     }
   }
 }
+
+#footer{
+  background-color: $redo-green;
+  color: $content-black;
+  margin-top: 5rem;
+}
+
 
 %center-image{
   display: block;
@@ -212,6 +218,9 @@ body{
   }
   p{
     margin:2px 0;
+  }
+  .contact{
+    margin-top: 1rem;
   }
 
 }

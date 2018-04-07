@@ -33,7 +33,7 @@
            <img class="left" src="img/poopy-ele.png" alt="elephant">
          </div>
          <div class="col s12 m6">
-           <h3> Elephants generate the waste!</h3>
+           <h3> To the composter!</h3>
            <p>A few times a week, the elephant waste is transported to a composter at the Zoo. In the composter, microbes, bacteria uses air and water to breaks down the organic waste and turns into compost. This process generates heat, which could be captured for other uses. </p>
            <b> Learn more about this process in the What is Compost page! </b>
          </div>

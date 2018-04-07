@@ -183,3 +183,32 @@ body{
     color: $redo-pink
   }
 }
+
+#contact{
+  .lead{
+    .lead-img{
+      height: 20rem;
+      width: 20rem;
+    }
+    h1{
+      color: $redo-pink;
+      font-size: 5rem;
+      margin: 10px;
+    }
+  }
+  .member{
+    text-align: center;
+    .member-img{
+      height: 15rem;
+      width: 15rem;
+    }
+    margin: 2rem 0;
+  }
+  .grid{
+    margin-top: 5rem;
+  }
+  p{
+    margin:2px 0;
+  }
+
+}

@@ -7,8 +7,8 @@
 
   <head>
     <?php include "includes/header-core.php"; ?>
-    <!-- captcha --> 
-    <!--<script src='https://www.google.com/recaptcha/api.js'></script>--> 
+    <!-- captcha -->
+    <!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
   </head>
 
   <body id="index">
@@ -43,7 +43,7 @@
                           $error="Please fill in all fields: ";
                       }
 
-                      $receiver = "psk84@cornell.edu"; 
+                      $receiver = "psk84@cornell.edu";
                     //   $receiver = "zh75@cornell.edu";
                       $sender = filter_input(INPUT_POST,'email', FILTER_SANITIZE_EMAIL);
                       $name = filter_input(INPUT_POST,'name', FILTER_SANITIZE_STRING);
@@ -82,7 +82,7 @@
                     <img src="img/zeyu.jpeg">
                     <h5 class="center-align">Hi, I'm Zeyu Hu, the team lead of REDO. Curious about our work? Email me below!</h5>
                 </div>
-            
+
                 <div class="row container">
                     <form class="cospo" action='contact.php' method='post' enctype='multipart/form-data'>
                         <div class="input-field col s12 l6">
@@ -94,7 +94,7 @@
 
                             <div class="input-field col s12">
                                 <input id ="text_email" type="email" name="email" >
-                                <label for="text_email">Email</label>    
+                                <label for="text_email">Email</label>
                             </div>
                         </div>
                         <div class="input-field col s12 l6">
@@ -108,8 +108,8 @@
                             <div class="input-field col s12">
                                 <input class='btn' type='submit' name='submit_msg'>
                                 <!-- captcha -->
-                                <!--<div class="g-recaptcha" data-sitekey="6LeGfyUUAAAAAKlgeEycfo03lcAPkbELBL-zKahM"></div>--> 
-                            </div>           
+                                <!--<div class="g-recaptcha" data-sitekey="6LeGfyUUAAAAAKlgeEycfo03lcAPkbELBL-zKahM"></div>-->
+                            </div>
                         </div>
 
 
@@ -119,11 +119,11 @@
 
 
 
-             
+
             </div>
 
           </div>
-          
+
 
 
     <?php include "includes/footer.php"; ?>

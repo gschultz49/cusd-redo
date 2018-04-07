@@ -15,17 +15,7 @@
     <?php //this page's content goes here ?>
 
      <div class="container">
-       <div class="row">
-         <div class="shadow"><img src="img/elephant.png" alt="ELEPHANT"></div>
-       </div>
-     </div>
-     <div class="row center-align">
-       <h1> Our Mission </h1>
-       <div class="row">
-         <div class="col s12 m6 offset-m3">
-           <p> Composting is the natural process of recycling organic materials into nutrient rich soil amendment. Our team wishes to harvest the ample organic matter (AKA animal excrement) produced by the Smithsonian Zoo and use it to its full potential. Through this partnership, REDO is developing innovative solutions for zoos across the nation to handle their animal manure and food waste. We view waste not as a problem, but as a valued asset with environmental, economic, social, and educational worth. </p>
-         </div>
-       </div>
+        <h1 class="center-align"> da fuk goes on this page </h1>
      </div>
     <?php include "includes/js-scripts.php"; ?>
   </body>

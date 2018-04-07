@@ -49,10 +49,12 @@ body{
     // default font fam
     font-family: "Avenir-Medium", "Roboto";
   }
+  b{
+    font-family: "Avenir-Medium", "Roboto";
+  }
 }
 
 // navbar styling
-
 #navbar{
   font-family: "Avenir-Heavy", "Roboto";
   margin: 2% 2%;
@@ -90,7 +92,6 @@ body{
     }
   }
 }
-
 // all index page styling
 #index{
   .shadow {
@@ -117,5 +118,21 @@ body{
   h1{
     font-family: 'Nanum Pen Script', cursive;
     color: $redo-pink;
+  }
+}
+// infographic page
+#infographic{
+  img{
+    width: 20rem;
+    height: 20rem;
+  }
+  img.arrow{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5rem;
+  }
+  h3{
+    font-family: 'Nanum Pen Script', cursive;
+    color: $redo-red;
   }
 }

@@ -4,30 +4,41 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
-
   <head>
     <?php include "includes/header-core.php"; ?>
   </head>
-
-  <body id="index">
+  <body id="infographic">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <?php include "includes/navbar.php"; ?>
-
-     <div class="section white">
-      <div class="row container">
-        <h2 class="header">Who are we?</h2>
-        <p class="grey-text text-darken-3 lighten-3">Composting is the natural process of recycling organic materials into nutrient rich soil amendment. Our team wishes to harvest the ample organic matter (AKA animal excrement) produced by the Smithsonian Zoo and use it to its full potential. Through this partnership, REDO is developing innovative solutions for zoos across the nation to handle their animal manure and food waste. We view waste not as a problem, but as a valued asset with environmental, economic, social, and educational worth.</p>
-      </div>
-    </div>
-
-    <?php include "includes/footer.php"; ?>
-
-
+    <?php //this page's content goes here ?>
+     <div class="container">
+       <div class="row">
+         <div class="col s12 m6">
+           <img class="left" src="img/eating-ele.png" alt="elephant">
+         </div>
+         <div class="col s12 m6">
+           <h3> Elephants generate the waste!</h3>
+           <p>After eating their nutritious meals, whatever nutrients the elephants were not able to digest gets turned into waste. This is known as organic waste, since it contains lots of carbon and nitrogen. Each elephant can produce up to 300 pounds of waste a day! </p>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col s12 m6">
+           <img class="center-align arrow" src="img/down-arrow.png" alt="arrow">
+         </div>
+       </div>
+       <div class="row">
+         <div class="col s12 m6">
+           <img class="left" src="img/poopy-ele.png" alt="elephant">
+         </div>
+         <div class="col s12 m6">
+           <h3> Elephants generate the waste!</h3>
+           <p>A few times a week, the elephant waste is transported to a composter at the Zoo. In the composter, microbes, bacteria uses air and water to breaks down the organic waste and turns into compost. This process generates heat, which could be captured for other uses. </p>
+           <b> Learn more about this process in the What is Compost page! </b>
+         </div>
+       </div>
+     </div>
     <?php include "includes/js-scripts.php"; ?>
-
-
   </body>
-
 </html>

@@ -19,13 +19,6 @@ $background-tan: #f9f5f1;
 $greyout: #ababab;
 $content-black: #6b6b6b;
 
-
-// // setup gotham-book font from truetype file
-// @font-face {
-//     font-family: Gotham-Book;
-//     src: url("../fonts/gotham-book.ttf") format("truetype");
-// }
-
 // p tagtext
 @font-face {
     font-family: Avenir-Medium;
@@ -57,7 +50,13 @@ body{
   }
 }
 
-// navbar styling
+// MIXINS
+%center-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #navbar{
   font-family: "Avenir-Heavy", "Roboto";
   margin: 2% 2%;
@@ -74,7 +73,6 @@ body{
   .links{
     li{
       display: inline;
-
       padding:0 30px;
       font-size: 1.2rem;
       opacity: 1;
@@ -98,13 +96,6 @@ body{
   background-color: $redo-green;
   color: $content-black;
   margin-top: 5rem;
-}
-
-
-%center-image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 // all index page styling
@@ -176,6 +167,7 @@ body{
   }
 }
 
+// education or worksheets page
 #education{
   .container{
     text-align: center;
@@ -193,6 +185,7 @@ body{
   }
 }
 
+// contact page
 #contact{
   .lead{
     .lead-img{

@@ -122,19 +122,33 @@ body{
     img{
       @extend %center-image;
     }
-    .mike{
-      height: 15rem;
-      width: 15rem;
+    .mikey{
+      height: 30rem;
+      width: 70rem;
+      @media only screen and (max-width: $break-small) {
+        width: 23rem;
+        height: 10rem;
+      }
     }
     .leaves{
       margin-top: 10rem;
       height: 15rem;
       width: 40rem;
+      @media only screen and (max-width: $break-small) {
+        margin-top: 5rem;
+        width: 23rem;
+        height: 10rem;
+      }
     }
     .mikey-info{
       margin-top: 10rem;
       height: 40rem;
       width: 35rem;
+      @media only screen and (max-width: $break-small) {
+        margin-top: 3rem;
+        width: 20rem;
+        height: 23rem;
+      }
     }
   }
 

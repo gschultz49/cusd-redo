@@ -30,8 +30,8 @@
         <div class="col s12 m6 offset-m3">
           <b> Indoor vs Outdoor </b>
           <br>
-           <p><span> Indoor -  </span> Buy a bin, throw food scraps, let it sit. If managed well, there should be no smells.</p></span>
-          <p><span> Outdoor - </span> Make a pile, throw food scraps, turn pile, keep it moist</p></span>
+           <p><span> Indoor -  </span> Buy a bin, throw food scraps, let it sit. If managed well, there should be no smells.</p>
+          <p><span> Outdoor - </span> Make a pile, throw food scraps, turn pile, keep it moist</p>
         </div>
       </div>
       <div class="row">

@@ -88,6 +88,9 @@ body{
       display: inline;
       padding:0 30px;
       font-size: 1.2rem;
+      a{
+        font-size: 1.3rem;
+      }
       opacity: 1;
       transition: .5s;
       // active tags for current page
@@ -232,6 +235,13 @@ body{
   }
 }
 
+#whatthezoo-page{
+  .poster{
+    h1{
+      color:$redo-pink;
+    }
+  }
+}
 // for all the poster pages
 .poster{
   .shadow {

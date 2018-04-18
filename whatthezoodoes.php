@@ -18,6 +18,13 @@
           <div class="shadow"><img src="img/what-the-zoo-does.png" alt="POSTER"></div>
         </div>
      </div>
+
+     <div class="container poster">
+        <div class="row">
+          <h1 class="center-align"> The REDO Cycle </h1>
+          <div class="shadow"><img src="img/the-redo-cycle.png" alt="POSTER"></div>
+        </div>
+     </div>
      <?php include "includes/footer.php"; ?>
      <?php include "includes/js-scripts.php"; ?>
  </body>

@@ -24,7 +24,11 @@
        <h1> Our Mission </h1>
        <div class="row">
          <div class="col s12 m6 offset-m3">
-           <p> Composting is the natural process of recycling organic materials into nutrient rich soil amendment. Our team wishes to harvest the ample organic matter (AKA animal excrement) produced by the Smithsonian Zoo and use it to its full potential. Through this partnership, REDO is developing innovative solutions for zoos across the nation to handle their animal manure and food waste. We view waste not as a problem, but as a valued asset with environmental, economic, social, and educational worth. </p>
+           <p> Project REDO (Recycling Elephant Doo Organically) is a collaboration between Cornell University Sustainable Design and the Smithsonian Institute Office of Facilities Management and Reliability (OFMR) that aims to set the Green Standard of integrative waste management for zoological parks. </p>
+           <br>
+           <p> Project REDO wishes to harvest the ample animal waste that is produced by the Smithsonian National Zoo and utilize it to its maximum potential through the process of creating composting. This process would not only be the solution to  minimizing  wastefulness but also be able to maximize environmental consciousness, economic sustainability, and community enrichment. </p>
+           <br>
+           <p> We view waste not as a problem, but as a valued asset with environmental, economic, social, and educational worth. </p>
          </div>
        </div>
      </div>

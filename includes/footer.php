@@ -7,6 +7,5 @@
         <a href="https://www.instagram.com/cusustainabledesign/"><img class="icon" src="img/insta.png" alt="Instagram"></a>
          <ul><li><a href="https://cusd.cornell.edu/">&copy;&nbsp;2011&ndash;<?php echo date("o")?> Cornell University Sustainable Design</a></li></ul>
        </div>
-     </div>
    </div>
  </footer>

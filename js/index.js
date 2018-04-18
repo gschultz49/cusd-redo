@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  $('.parallax').parallax();
   $('.sidenav').sidenav();
   $(".dropdown-button").dropdown();
   $('.tap-target').tapTarget();
@@ -9,8 +8,6 @@ $(document).ready(function () {
    });
 
 });
-
-
 
 $(function(){
   $('.carousel').carousel();
@@ -28,13 +25,11 @@ $(function(){
 //     });
 // });
 
-
-
+// random fact generator
 
 $("#facts_generator").on('click', function(){
   alert(random_fact());
 });
-
 function random_fact(){
   console.log("generating random fact");
   const facts = [

@@ -9,14 +9,5 @@
 <title>REDO</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <link rel="stylesheet" type="text/css" href="css/materialize-src/sass/materialize.css"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-<?php
-      // <link rel="stylesheet" type="text/css" href="css/style.css">
-      //creates versions for each time the style sheet is updated
-      $style_path = 'css/style.css';
-      $version = filemtime($style_path);
-      echo "<link rel='stylesheet' type='text/css' href='$style_path?ver=$version'>";
-  ?>

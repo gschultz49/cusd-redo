@@ -8,6 +8,7 @@
     <?php include "includes/header-core.php"; ?>
 
   </head>
+
   <body id="whatiscompost-page">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
@@ -16,13 +17,13 @@
     <?php //this page's content goes here ?>
 
     <div class="carousel carousel-slider hide-on-small-only">
-      <a class="carousel-item" href="#one!"><img src="img/composting_website.png"></a>
-      <a class="carousel-item" href="#two!"><img src="img/composting_website3.png"></a>
-      <a class="carousel-item" href="#three!"><img src="img/composting_website4.png"></a>
-      <a class="carousel-item" href="#four!"><img src="img/composting_website5.png"></a>
-      <a class="carousel-item" href="#five!"><img src="img/composting_website6.png"></a>
-      <a class="carousel-item" href="#six!"><img src="img/composting_website7.png"></a>
-      <a class="carousel-item" href="#seven!"><img src="img/composting_website8.png"></a>
+      <a class="carousel-item" href="#one!"><img alt="compost-image" src="img/composting_website.png"></a>
+      <a class="carousel-item" href="#two!"><img alt="compost-image" src="img/composting_website3.png"></a>
+      <a class="carousel-item" href="#three!"><img alt="compost-image" src="img/composting_website4.png"></a>
+      <a class="carousel-item" href="#four!"><img alt="compost-image" src="img/composting_website5.png"></a>
+      <a class="carousel-item" href="#five!"><img alt="compost-image" src="img/composting_website6.png"></a>
+      <a class="carousel-item" href="#six!"><img alt="compost-image" src="img/composting_website7.png"></a>
+      <a class="carousel-item" href="#seven!"><img alt="compost-image" src="img/composting_website8.png"></a>
     </div>
 
     <div class="container poster hide-on-med-and-up">
@@ -34,10 +35,6 @@
 
     <?php include "includes/footer.php"; ?>
    <?php include "includes/js-scripts.php"; ?>
-   <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
-   <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
    </body>
-
-
 
 </html>

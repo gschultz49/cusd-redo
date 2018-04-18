@@ -11,31 +11,22 @@ $(document).ready(function () {
 });
 
 
-function toMobileNav() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-
 
 $(function(){
   $('.carousel').carousel();
 })
 // active page highlighter
-$(function(){
-    var pathname = (window.location.pathname.match(/[^\/]+$/)[0]);
-    pathname = pathname.slice(0, -4);
-
-    $('#navbar .links a').each(function() {
-    if ($(this).attr('id') == pathname)
-    {
-        $(this).addClass('active');
-    }
-    });
-});
+// $(function(){
+//     var pathname = (window.location.pathname.match(/[^\/]+$/)[0]);
+//     pathname = pathname.slice(0, -4);
+//
+//     $('#navbar .links a').each(function() {
+//     if ($(this).attr('id') == pathname)
+//     {
+//         $(this).addClass('active');
+//     }
+//     });
+// });
 
 
 

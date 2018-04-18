@@ -74,14 +74,19 @@ $teamLeadImg = "img/zeyu.jpeg";
            <?php // <p> <a href="mailto:hap44@cornell.edu">hap44@cornell.edu</a></p>  ?>
          </div>
 
-         <div class="col s12 m6 member">
+         <div class="col s12 m4 member">
            <img class="member-img" src= "img/janelle-headshot.png" alt="MEMBER">
            <p> Janelle Chung </p>
            <?php // <p> <a href="mailto:jc2385@cornell.edu">jc2385@cornell.edu </a></p>  ?>
          </div>
-         <div class="col s12 m6 member">
+         <div class="col s12 m4 member">
            <img class="member-img" src= "img/Solina.jpg" alt="MEMBER">
            <p> Solina Kennedy</p>
+           <?php // <p> <a href="mailto:srk226@cornell.edu">srk226@cornell.edu</a></p>  ?>
+         </div>
+         <div class="col s12 m4 member">
+           <img class="member-img" src= "img/Solina.jpg" alt="MEMBER">
+           <p>Alice Rhim</p>
            <?php // <p> <a href="mailto:srk226@cornell.edu">srk226@cornell.edu</a></p>  ?>
          </div>
        </div>

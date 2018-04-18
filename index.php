@@ -17,6 +17,7 @@
      <div class="container">
        <div class="row">
          <div class="shadow"><img src="img/elephant.png" alt="ELEPHANT"></div>
+         <!-- <div class="shadow"><img src="img/elephant2.jpeg" alt="ELEPHANT"></div> -->
        </div>
      </div>
      <div class="row center-align">

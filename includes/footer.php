@@ -1,10 +1,10 @@
 <footer id="footer" class="page-footer">
    <div class="container">
      <div class="row">
-      
+
        <!-- <div class="col l8 s12">-->
         <h5> REDO </h5>
-         <p>This is site is created by REDO, a sub-team of Cornell University Sustainable Design. The content on this website does not reflect in any way the interest or positions of the Smithsonian Institute. For more information please visit the !!!!!!!! page.</p>
+         <p>This is site is created by REDO, a sub-team of Cornell University Sustainable Design. The content on this website does not reflect in any way the interest or positions of the Smithsonian Institute. For more information please visit the <a href="contact"> contact </a> page.</p>
         <a href="#!"><img class="icon" src="img/facebook.png" alt="Facebook"></a>
         <a href="#!"><img class="icon" src="img/insta.png" alt="Instagram"></a>
          <ul><li><a href="https://cusd.cornell.edu/">&copy;&nbsp;2011&ndash;<?php echo date("o")?> Cornell University Sustainable Design</a></li></ul>

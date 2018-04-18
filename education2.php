@@ -7,8 +7,8 @@
 
   <head>
     <?php include "includes/header-core.php"; ?>
-    <!-- captcha --> 
-    <!--<script src='https://www.google.com/recaptcha/api.js'></script>--> 
+    <!-- captcha -->
+    <!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
   </head>
 
   <body id="index">
@@ -21,6 +21,7 @@
          <div class="section white">
             <h2>Education</h2>
           </div>
+          <?php  //random facts generator  ?>
           <a class="waves-effect waves-light btn-large" id="facts_generator">random fact</a>
       </div>
 

@@ -22,7 +22,9 @@ $teamLeadImg = "img/zeyu.jpeg";
     <?php //this page's content goes here ?>
 
      <div class="container">
-       <div class="row lead">
+
+
+       <!-- <div class="row lead">
          <div class="col s12 m6">
            <img class="lead-img" src= "<?php echo $teamLeadImg; ?>" alt="<?php echo $teamLead; ?>">
          </div>
@@ -33,37 +35,55 @@ $teamLeadImg = "img/zeyu.jpeg";
            <p class="contact">Any questions? Feel free to reach out to me at<a href="mailto:<?php echo $teamLeadEmail; ?>"> <?php echo $teamLeadEmail; ?></a></p>
          </div>
        </div>
+       -->
+       <div class="row center-align">
+         <h1> Meet Our members </h1>
+         <h3>We couldn't have completed this project without our team!</h3>
+       </div>
+
+
+
        <div class="row grid">
+
          <div class="col s12 m4 member">
+           <img class="member-img" src= "img/zeyu.jpeg" alt="MEMBER">
+           <p> <a href="mailto:<?php echo $teamLeadEmail; ?>"> Zeyu Hu</a> </p>
+         </div>
+         <div class="col s12 m4 member">
+           <img class="member-img" src= "img/Ajara.jpg" alt="MEMBER">
+           <p> Ajara Cobourne</p>
+         </div>
+         <div class="col s12 m4 member">
+           <img class="member-img" src= "img/Allie.JPG" alt="MEMBER">
+           <p> Allie Sawin </p>
+         </div>
+
+         <div class="col s12 m4 member">
+           <img class="member-img" src= "img/Anekha.png" alt="MEMBER">
+           <p> Anekha Goyal </p>
+         </div>
+         <div class="col s12 m4 member">
+           <img class="member-img" src= "img/Dora.jpg" alt="MEMBER">
+           <p> Dora Tan </p>
+         </div>
+         <div class="col s12 m4 member">
+           <img class="member-img" src= "img/Hilary_Paul.jpg" alt="MEMBER">
+           <p> Hilary Paul </p>
+         </div>
+
+         <div class="col s12 m6 member">
+           <img class="member-img" src= "img/janelle-headshot.png" alt="MEMBER">
+           <p> Janelle Chung </p>
+         </div>
+         <div class="col s12 m6 member">
+           <img class="member-img" src= "img/Solina.jpg" alt="MEMBER">
+           <p> Solina Kennedy</p>
+         </div>
+         <!-- <div class="col s12 m4 member">
            <img class="member-img" src= "img/zeyu.jpeg" alt="MEMBER">
            <p> Kenneth Young </p>
            <p>Package Designer </p>
-         </div>
-         <div class="col s12 m4 member">
-           <img class="member-img" src= "img/zeyu.jpeg" alt="MEMBER">
-           <p> Kenneth Young </p>
-           <p>Package Designer </p>
-         </div>
-         <div class="col s12 m4 member">
-           <img class="member-img" src= "img/zeyu.jpeg" alt="MEMBER">
-           <p> Kenneth Young </p>
-           <p>Package Designer </p>
-         </div>
-         <div class="col s12 m4 member">
-           <img class="member-img" src= "img/zeyu.jpeg" alt="MEMBER">
-           <p> Kenneth Young </p>
-           <p>Package Designer </p>
-         </div>
-         <div class="col s12 m4 member">
-           <img class="member-img" src= "img/zeyu.jpeg" alt="MEMBER">
-           <p> Kenneth Young </p>
-           <p>Package Designer </p>
-         </div>
-         <div class="col s12 m4 member">
-           <img class="member-img" src= "img/zeyu.jpeg" alt="MEMBER">
-           <p> Kenneth Young </p>
-           <p>Package Designer </p>
-         </div>
+         </div> -->
        </div>
      </div>
      <?php include "includes/footer.php"; ?>

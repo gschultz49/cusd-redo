@@ -16,7 +16,7 @@
      <div class="container">
        <div class="row">
          <div class="col s12 m6">
-           <img class="left" src="img/eating-ele.png" alt="elephant">
+           <img class="left" src="img/eating-elephant.png" alt="elephant">
          </div>
          <div class="col s12 m6">
            <h3> Elephants generate the waste!</h3>
@@ -30,7 +30,7 @@
        </div>
        <div class="row">
          <div class="col s12 m6">
-           <img class="left" src="img/poopy-ele.png" alt="elephant">
+           <img class="left" src="img/backpoop.png" alt="elephant">
          </div>
          <div class="col s12 m6">
            <h3> To the composter!</h3>

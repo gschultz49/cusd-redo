@@ -3,9 +3,23 @@ $(document).ready(function () {
   $('.sidenav').sidenav();
   $(".dropdown-button").dropdown();
   $('.tap-target').tapTarget();
+
 });
 
 
+function toMobileNav() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+
+$(function(){
+  $('.carousel').carousel();
+})
 // active page highlighter
 $(function(){
     var pathname = (window.location.pathname.match(/[^\/]+$/)[0]);

@@ -15,7 +15,7 @@
     <?php include "includes/navbar.php"; ?>
     <?php //this page's content goes here ?>
 
-    <div class="carousel carousel-slider">
+    <div class="carousel carousel-slider hide-on-small-only">
       <a class="carousel-item" href="#one!"><img src="img/composting_website.png"></a>
       <a class="carousel-item" href="#two!"><img src="img/composting_website3.png"></a>
       <a class="carousel-item" href="#three!"><img src="img/composting_website4.png"></a>
@@ -23,6 +23,12 @@
       <a class="carousel-item" href="#five!"><img src="img/composting_website6.png"></a>
       <a class="carousel-item" href="#six!"><img src="img/composting_website7.png"></a>
       <a class="carousel-item" href="#seven!"><img src="img/composting_website8.png"></a>
+    </div>
+
+    <div class="container poster hide-on-med-and-up">
+       <div class="row">
+         <div class="shadow"><img src="img/how-to-compost.jpg" alt="POSTER"></div>
+       </div>
     </div>
 
 

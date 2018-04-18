@@ -94,10 +94,6 @@ body{
       .active{
         color: $content-black
       }
-
-      &:hover{
-          opacity: .6;
-      }
     }
   }
 }
@@ -114,6 +110,9 @@ body{
   .icon{
     width: 30px;
     height: 30px;
+  }
+  h5{
+    color: $redo-pink;
   }
 }
 

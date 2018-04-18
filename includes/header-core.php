@@ -12,9 +12,6 @@
 <!-- <link rel="stylesheet" type="text/css" href="css/materialize-src/sass/materialize.css"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
 
 <?php
       // <link rel="stylesheet" type="text/css" href="css/style.css">

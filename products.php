@@ -16,17 +16,17 @@
 
     <div class="container">
       <div class="row">
-        <div class="col s12 m4 fertilizer">
+        <div class="col s12 m4 product">
           <img src="img/the_calf.png" alt="calf">
           <h1> The Calf </h1>
           <p>The Calf, a 2 gallon bucket of organic compost, is the perfect size for those who are nurturing a small garden and who want to help save species. This nutritious compost will help your small garden thrive.</p>
         </div>
-        <div class="col s12 m4 fertilizer">
+        <div class="col s12 m4 product">
           <img src="img/the_kit.png" alt="kit">
           <h1>The Kit</h1>
           <p>This kit is perfect for sparking an interest in sustainability.  We have everything you need to start a mini garden - good for cooks, kids and everyone in between. The compost and seeds provides an opportunity for sensory exploration for the little ones. Grow your mind while growing something good. </p>
         </div>
-        <div class="col s12 m4 fertilizer">
+        <div class="col s12 m4 product">
           <img src="img/the_herd.png" alt="herd">
           <h1> The Herd </h1>
           <p>The Herd, a 5 gallon bucket of compost, is targeted at the avid gardner or small scale farmer. This nutritious compost crafted from the perfect recipe will surely make a big difference on your plants! We will also offer a truckload size incase the herd is still too small for you.</p>

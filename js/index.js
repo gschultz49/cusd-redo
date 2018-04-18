@@ -3,6 +3,10 @@ $(document).ready(function () {
   $('.sidenav').sidenav();
   $(".dropdown-button").dropdown();
   $('.tap-target').tapTarget();
+   $('.dropdown-trigger').dropdown({
+     hover : true,
+     constrainwidth : false
+   });
 
 });
 

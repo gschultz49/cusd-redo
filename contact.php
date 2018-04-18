@@ -2,7 +2,7 @@
 // for changing team leads...
 $teamLead= "Zeyu Hu";
 $teamLeadEmail = "zh75@cornell.edu";
-$teamLeadImg = "img/zeyu.jpeg";
+$teamLeadImg = "img/zeyu-min.jpeg";
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -44,48 +44,48 @@ $teamLeadImg = "img/zeyu.jpeg";
        </div>
        <div class="row grid">
          <div class="col s12 m4 member">
-           <img class="member-img" src= "img/zeyu.jpeg" alt="MEMBER">
+           <img class="member-img" src= "img/zeyu-min.jpeg" alt="MEMBER">
            <p> Team Leader: <a href="mailto:<?php echo $teamLeadEmail; ?>"> Zeyu Hu</a></p>
          </div>
          <div class="col s12 m4 member">
-           <img class="member-img" src= "img/Ajara.jpg" alt="MEMBER">
+           <img class="member-img" src= "img/Ajara-min.jpg" alt="MEMBER">
            <p> Ajara Cobourne</p>
            <?php // <p> <a href="mailto:amc525@cornell.edu">amc525@cornell.edu</a></p>  ?>
          </div>
          <div class="col s12 m4 member">
-           <img class="member-img" src= "img/Allie.JPG" alt="MEMBER">
+           <img class="member-img" src= "img/Allie-min.JPG" alt="MEMBER">
            <p> Allie Sawin </p>
            <?php // <p> <a href="mailto:as2582@cornell.edu">as2582@cornell.edu</a></p>  ?>
          </div>
 
          <div class="col s12 m4 member">
-           <img class="member-img" src= "img/Anekha.png" alt="MEMBER">
+           <img class="member-img" src= "img/Anekha-min.png" alt="MEMBER">
            <p> Anekha Goyal </p>
            <?php // <p> <a href="mailto:ag2239@cornell.edu">ag2239@cornell.edu</a></p>  ?>
          </div>
          <div class="col s12 m4 member">
-           <img class="member-img" src= "img/Dora.jpg" alt="MEMBER">
+           <img class="member-img" src= "img/Dora-min.jpg" alt="MEMBER">
            <p> Dora Tan </p>
            <?php // <p> <a href="mailto:dt399@cornell.edu">dt399@cornell.edu</a></p>  ?>
          </div>
          <div class="col s12 m4 member">
-           <img class="member-img" src= "img/Hilary_Paul.jpg" alt="MEMBER">
+           <img class="member-img" src= "img/Hilary_Paul-min.jpg" alt="MEMBER">
            <p> Hilary Paul </p>
            <?php // <p> <a href="mailto:hap44@cornell.edu">hap44@cornell.edu</a></p>  ?>
          </div>
 
          <div class="col s12 m4 member">
-           <img class="member-img" src= "img/janelle-headshot.png" alt="MEMBER">
+           <img class="member-img" src= "img/janelle.jpeg" alt="MEMBER">
            <p> Janelle Chung </p>
            <?php // <p> <a href="mailto:jc2385@cornell.edu">jc2385@cornell.edu </a></p>  ?>
          </div>
          <div class="col s12 m4 member">
-           <img class="member-img" src= "img/Solina.jpg" alt="MEMBER">
+           <img class="member-img" src= "img/Solina-min.jpg" alt="MEMBER">
            <p> Solina Kennedy</p>
            <?php // <p> <a href="mailto:srk226@cornell.edu">srk226@cornell.edu</a></p>  ?>
          </div>
          <div class="col s12 m4 member">
-           <img class="member-img" src= "img/Solina.jpg" alt="MEMBER">
+           <img class="member-img" src= "img/Alice-min.jpg" alt="MEMBER">
            <p>Alice Rhim</p>
            <?php // <p> <a href="mailto:srk226@cornell.edu">srk226@cornell.edu</a></p>  ?>
          </div>

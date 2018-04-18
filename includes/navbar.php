@@ -7,7 +7,7 @@
   <li> <a class="dropdown-links" href="whatthezoodoes.php">What the Zoo Does</a></li>
   <li> <a class="dropdown-links" href="whatyoucando.php">What You Can Do</a></li>
   <li><a class="dropdown-links" href="products.php">Products</a></li>
-  <li><a class="dropdown-links" href="infographic.php">Infographic</a></li>
+  <li><a class="dropdown-links" href="process.php">Process</a></li>
   <li><a class="dropdown-links" href="contact.php">Contact</a></li>
 </ul>
 
@@ -27,7 +27,7 @@
       <!-- Dropdown Trigger -->
       <li class="top-links"> <a class="dropdown-trigger black-links" href="#!" data-constrainWidth="false" data-target="dropdown1">Compost<i class="material-icons right">arrow_drop_down</i></a></li>
       <li class="top-links"> <a class="black-links" id="products" href="products.php">Products</a></li>
-      <li class="top-links"> <a class="black-links" id="infograhic" href="infographic.php">Infographic</a></li>
+      <li class="top-links"> <a class="black-links" id="process" href="process.php">Process</a></li>
       <li class="top-links"> <a class="black-links" id="contact" href="contact.php">Contact</a></li>
     </ul>
   </div>
